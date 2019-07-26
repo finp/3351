@@ -1,1 +1,3 @@
-include::file2.adoc[tags=level2deep]
+:include-tags: level2deep
+
+include::file2.adoc[tags={include-tags}]
