@@ -1,0 +1,4 @@
+lorem ipsum
+//tag::level2deep[]
+test paragraph in file3.adoc
+//End::level2deep[]

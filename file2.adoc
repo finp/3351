@@ -1,0 +1,7 @@
+//tag::notlevel2deep[]
+include::file3.adoc[]
+//end::notlevel2deep[]
+
+//tag::level2deep[]
+include::file3.adoc[tags=level2deep]
+//end::level2deep[]
