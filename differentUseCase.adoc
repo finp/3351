@@ -1,5 +1,5 @@
-:include-tags: differentUseCase
+:include-tags: exclude-in-differentUseCase
 
 = Different Use Case
 
-include::file2.adoc[tags={include-tags}]
+include::file2.adoc[tags=!{include-tags}]

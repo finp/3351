@@ -1,5 +1,5 @@
-:include-tags: level2deep
+:include-tags: exclude-in-level2deep
 
 = File 1
 
-include::file2.adoc[tags={include-tags}]
+include::file2.adoc[tags=!{include-tags}]

@@ -1,18 +1,16 @@
-// tag::differentUseCase[]
-
-// tag::level2deep[]
-
 === File 3
 
 File 3 has this  generic test.
 
-// end::differentUseCase[]
+// tag::exclude-in-differentUseCase[]
 
 test paragraph in file3.adoc that should only be visible from file 1.
-// end::level2deep[]
 
-// tag::differentUseCase[]
+// end::exclude-in-differentUseCase[]
+
+
+// tag::exclude-in-level2deep[]
 
 test paragraph in file3.adoc that should only be visible from differentUseCase
 
-// end::differentUseCase[]
+// end::exclude-in-level2deep[]
