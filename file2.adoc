@@ -1,1 +1,11 @@
+// tag::differentUseCase[]
+// tag::level2deep[]
+
+== File 2
+
+File 2 includes file 3
+
 include::file3.adoc[tags={include-tags}]
+
+// end::level2deep[]
+// end::differentUseCase[]

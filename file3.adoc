@@ -1,4 +1,18 @@
-lorem ipsum
-//tag::level2deep[]
-test paragraph in file3.adoc
-//End::level2deep[]
+// tag::differentUseCase[]
+
+// tag::level2deep[]
+
+=== File 3
+
+File 3 has this  generic test.
+
+// end::differentUseCase[]
+
+test paragraph in file3.adoc that should only be visible from file 1.
+// end::level2deep[]
+
+// tag::differentUseCase[]
+
+test paragraph in file3.adoc that should only be visible from differentUseCase
+
+// end::differentUseCase[]

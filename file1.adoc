@@ -1,3 +1,5 @@
 :include-tags: level2deep
 
+= File 1
+
 include::file2.adoc[tags={include-tags}]

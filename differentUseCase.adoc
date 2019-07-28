@@ -1,1 +1,5 @@
-include::file2.adoc[]
+:include-tags: differentUseCase
+
+= Different Use Case
+
+include::file2.adoc[tags={include-tags}]
