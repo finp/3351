@@ -1,4 +1,4 @@
-:include-tags: exclude-in-differentUseCase
+:include-tags: exclude-in-downstream
 
 = Different Use Case
 

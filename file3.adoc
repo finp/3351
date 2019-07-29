@@ -2,15 +2,15 @@
 
 File 3 has this  generic test.
 
-// tag::exclude-in-differentUseCase[]
+// tag::exclude-in-downstream[]
 
-test paragraph in file3.adoc that should only be visible from file 1.
+test paragraph in file3.adoc that should only be visible in upstream docs.
 
-// end::exclude-in-differentUseCase[]
+// end::exclude-in-downstream[]
 
 
-// tag::exclude-in-level2deep[]
+// tag::exclude-in-upstream[]
 
-test paragraph in file3.adoc that should only be visible from differentUseCase
+test paragraph in file3.adoc that should only be visible in downstream docs.
 
-// end::exclude-in-level2deep[]
+// end::exclude-in-upstream[]

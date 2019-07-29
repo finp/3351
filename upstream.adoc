@@ -1,4 +1,4 @@
-:include-tags: exclude-in-level2deep
+:include-tags: exclude-in-upstream
 
 = File 1
 
