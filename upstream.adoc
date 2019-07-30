@@ -1,5 +1,6 @@
-:include-tags: exclude-in-upstream
+:include-tags: !exclude-in-upstream;!exclude-in-all
 
 = File 1
+:toc:
 
-include::file2.adoc[tags=!{include-tags}]
+include::file2.adoc[tags={include-tags}]

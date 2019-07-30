@@ -3,5 +3,8 @@
 
 File 2 includes file 3
 
-include::file3.adoc[tags=!{include-tags}]
+include::file3.adoc[tags={include-tags}]
 
+include::file3a.adoc[tags={include-tags}]
+
+include::file3b.adoc[tags={include-tags}]

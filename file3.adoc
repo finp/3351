@@ -14,3 +14,8 @@ test paragraph in file3.adoc that should only be visible in upstream docs.
 test paragraph in file3.adoc that should only be visible in downstream docs.
 
 // end::exclude-in-upstream[]
+
+
+// tag::exclude-in-all[]
+Never display this text
+// end::exclude-in-all[]

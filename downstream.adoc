@@ -1,5 +1,5 @@
-:include-tags: exclude-in-downstream
+:include-tags: !exclude-in-downstream;!exclude-in-all
 
 = Different Use Case
 
-include::file2.adoc[tags=!{include-tags}]
+include::file2.adoc[tags={include-tags}]
